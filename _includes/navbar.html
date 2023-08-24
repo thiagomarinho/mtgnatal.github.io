@@ -1,0 +1,39 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.posts %}/">{% t pages.posts %}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.tags %}/">{% t pages.tags %}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.about %}/">{% t pages.about %}</a>
+        </li>
+        {% if false %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.comunidades %}/">{% t pages.comunidades %}</a>
+        </li>
+        {% endif %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.torneios %}/">{% t pages.torneios %}</a>
+        </li>
+        {% if false %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.casual %}/">{% t pages.casual %}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/{% t links.utilidades %}/">{% t pages.utilidades %}</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,44 @@
+january: Janeiro
+february: Fevereiro
+march: Março
+april: Abril
+may: Maio
+june: Junho
+july: Julho
+august: Agosto
+september: Setembro
+october: Outubro
+november: Novembro
+december: Dezembro
+
+pages:
+  about: Sobre
+  comunidades: Comunidades
+  posts: Posts
+  onde_jogar: Onde jogar
+  torneios: Torneios
+  casual: Casual
+  home: Home
+  home_title: Bem vindo!
+  tags: Tags
+  utilidades: Utilidades
+
+links:
+  about: sobre
+  comunidades: comunidades
+  posts: posts
+  onde_jogar: onde-jogar
+  casual: casual
+  torneios: torneios
+  tags: tags
+  utilidades: utilidades
+
+main:
+  posts:
+    toc: Sumário
+    translate: You can also read this post in
+    prev-next: Leia também
+    read: de leitura
+    posted_by: Postado por
+    posted_on: em
+

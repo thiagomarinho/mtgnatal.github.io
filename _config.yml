@@ -1,0 +1,22 @@
+title: Magic Natal/RN
+description: Acompanhe resultados de torneios e outras informações sobre o Magic local aqui :)
+url: magicnatal.com.br
+permalink: /:year/:month/:day/:title/
+base_url:
+
+google_analytics: G-02V319P8SV
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
+languages: ["pt-br"]
+include: ["_pages"]
+exclude_from_localizations: ["javascript", "images", "css"]
